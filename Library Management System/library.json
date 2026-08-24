@@ -1,1 +1,52 @@
+{
+    "books": [
+        {
+            "id": "B-QmwLz",
+            "title": "Book1",
+            "author": "BookAuthor1",
+            "total_copies": 25,
+            "available_copies": 23,
+            "added_on": "2026-08-24 11:40:25"
+        },
+        {
+            "id": "B-2zggF",
+            "title": "Book2",
+            "author": "BookAuthor2",
+            "total_copies": 30,
+            "available_copies": 29,
+            "added_on": "2026-08-24 11:41:02"
+        }
+    ],
+    "members": [
+        {
+            "id": "M-Tf4Gq",
+            "name": "Person1",
+            "email": "person1@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-QmwLz",
+                    "title": "Book1",
+                    "borrow_on": "2026-08-24 11:43:04"
+                }
+            ]
+        },
+        {
+            "id": "M-g3OfJ",
+            "name": "Person2",
+            "email": "person2@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-QmwLz",
+                    "title": "Book1",
+                    "borrow_on": "2026-08-24 11:45:08"
+                },
+                {
+                    "book_id": "B-2zggF",
+                    "title": "Book2",
+                    "borrow_on": "2026-08-24 11:45:36"
+                }
+            ]
+        }
+    ]
+}
 
